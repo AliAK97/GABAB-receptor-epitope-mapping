@@ -1,0 +1,19 @@
+name: ab_pred_venv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.13.2
+  - pandas=2.2.3
+  - numpy=2.3.2
+  - biopython=1.86
+  - abnumber=0.4.4
+  - anarci=2020.04.23
+  - hmmer=3.4
+  - ipykernel=6.29.5
+  # notebook only
+  - scipy=1.15.2
+  - matplotlib=3.10.1
+  - py3dmol=2.4.2
+  # PyRosetta 2025.02 requires a license and must be installed 
+  # separately from https://www.pyrosetta.org/downloads
